@@ -1,1 +1,1 @@
-[Homework 1](https://stepanchik2005.github.io/Genius_Homework/)
+[Genius Homework 1](https://stepanchik2005.github.io/Genius_Homework/)

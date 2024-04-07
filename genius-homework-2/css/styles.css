@@ -63,7 +63,7 @@ address {
   font-style: normal;
 }
 .main-background {
-  background-image: url(/genius-homework-2/images/background-big.png);
+  background-image: url(./images/background-big.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -99,7 +99,7 @@ address {
 .container.header-container {
 }
 .background {
-  background-image: url(/genius-homework-2/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
 }
 .header-nav {

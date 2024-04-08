@@ -339,7 +339,6 @@ address {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  align-items: left;
 }
 .map {
   border-radius: 32px;
@@ -440,9 +439,13 @@ address {
   width: 100%;
   gap: 16px;
 }
+.footer-contacts-address {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 .icon_links_footer {
   display: flex;
-  fill: var(--color-background);
   justify-content: flex-start;
   align-items: flex-start;
   gap: 24px;

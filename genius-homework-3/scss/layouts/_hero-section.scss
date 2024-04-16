@@ -1,0 +1,38 @@
+.hero-section {
+  padding-top: 16px;
+  padding-bottom: 126px;
+
+  &__container {
+    padding: 0 206px;
+  }
+  &__main-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 730px;
+    width: 100%;
+  }
+  &__flex-title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  &__title {
+    margin: 0;
+    color: var(--color-primary-blue);
+    font-family: Play, sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.81;
+    text-transform: capitalize;
+  }
+  &__flex-button {
+    display: flex;
+    flex-direction: column;
+    max-width: 232px;
+    width: 100%;
+    gap: 14px;
+  }
+}

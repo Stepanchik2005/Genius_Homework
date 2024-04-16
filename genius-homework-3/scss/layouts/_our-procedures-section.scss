@@ -1,0 +1,23 @@
+.our-procedures-section {
+  &__container {
+    padding: 0 112px;
+  }
+
+  &__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  &__procedures-boxes {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__scroll-flex {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+}

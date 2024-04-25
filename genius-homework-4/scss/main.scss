@@ -3,20 +3,8 @@
 @import "./utilits/utils";
 @import "./utilits/texts";
 @import "./utilits/stars";
-
 @import "./base";
-
-@import "./layouts/header";
-@import "./layouts/hero-section";
-@import "./layouts/about-us-section";
-@import "./layouts/section";
-@import "./layouts/people-choice-section";
-@import "./layouts/our-procedures-section";
-@import "./layouts/contacts-section";
-@import "./layouts/footer";
-@import "./layouts/modal";
-@import "./layouts/container";
-@import "./layouts/wave-background";
+@import "./components/pagination";
 @import "./components/backdrop";
 @import "./components/button";
 @import "./components/contacts-form";
@@ -24,3 +12,15 @@
 @import "./components/carousel-button";
 @import "./components/format-card";
 @import "./components/procedures-box";
+@import "./layouts/section";
+@import "./layouts/container";
+@import "./layouts/header";
+@import "./layouts/hero-section";
+@import "./layouts/about-us-section";
+@import "./layouts/people-choice-section";
+@import "./layouts/our-procedures-section";
+@import "./layouts/contacts-section";
+@import "./layouts/footer";
+@import "./layouts/modal";
+@import "./layouts/mobile-menu";
+@import "./layouts/wave-background";

@@ -1,0 +1,111 @@
+.about-us-section {
+  padding: 0;
+  @media screen and (min-width: $bp-tablet) {
+    padding: 85px 0;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: $bp-desktop) {
+      flex-direction: row;
+      gap: 32px;
+      padding: 0 100px;
+    }
+  }
+  &__title {
+    margin: 0;
+    font-size: 32px;
+    line-height: 1.15;
+    @media screen and (min-width: $bp-desktop) {
+      font-size: 64px;
+      line-height: 1.18;
+    }
+    @media screen and (min-width: $bp-desktop) {
+      max-width: 530px;
+      width: 100%;
+    }
+  }
+  &__text {
+    color: var(--color-primary-dark);
+    font-size: 22px;
+    line-height: 1.7;
+  }
+  &__accent-highest-standards {
+    font-weight: 600;
+  }
+  &__main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    // max-width: 710px;
+    flex-basis: 50%;
+    width: 100%;
+    padding-top: 40px;
+    @media screen and (min-width: $bp-desktop) {
+      gap: 40px;
+    }
+  }
+  &__text-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    font-size: 16px;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 22px;
+    }
+    @media screen and (min-width: $bp-desktop) {
+      gap: 40px;
+    }
+  }
+  &__women-injection {
+    position: relative;
+    display: grid;
+    column-gap: 0;
+    row-gap: 40px;
+    // max-width: 500px;
+    // width: 100%;
+    flex-basis: 50%;
+    justify-items: start;
+  }
+  &__woman-before-injection {
+    display: none;
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+      justify-self: start;
+    }
+  }
+  &__woman-after-injection {
+    display: none;
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+      justify-self: end;
+    }
+  }
+  &__star_1 {
+    display: block;
+    //bottom: 0;
+    right: 0;
+    @media screen and (min-width: $bp-desktop) {
+      top: 340px;
+      left: 120px;
+    }
+  }
+  &__star_2 {
+    display: none;
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+      top: 32px;
+      left: 470px;
+    }
+  }
+  &__star_3 {
+    display: none;
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+      top: 270px;
+      left: 472px;
+    }
+  }
+}

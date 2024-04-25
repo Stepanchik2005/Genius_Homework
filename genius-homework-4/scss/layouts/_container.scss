@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 20px;
+  @media screen and (min-width: $bp-desktop) {
+    max-width: 1287px;
+    padding: 0 24px;
+  }
+}

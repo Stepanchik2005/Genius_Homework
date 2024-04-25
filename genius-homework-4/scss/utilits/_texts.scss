@@ -1,0 +1,13 @@
+/*under-button-text*/
+.under-button-text {
+  font-size: 12px;
+  text-align: center;
+  &--gray {
+    max-width: 205px;
+    width: 100%;
+    color: var(--color-secondary-gray);
+  }
+}
+.accent {
+  color: var(--color-primary-blue);
+}

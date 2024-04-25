@@ -1,0 +1,50 @@
+.contacts-section {
+  @media screen and (min-width: $bp-tablet) {
+    padding-bottom: 42px;
+  }
+  &__container {
+    @media screen and (min-width: $bp-tablet) {
+      padding: 0 40px;
+    }
+  }
+  &__flex {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 48px;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin: 0 auto;
+      flex-direction: row;
+    }
+  }
+
+  &__map-container {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 -20px;
+    @media screen and (min-width: $bp-tablet) {
+      margin: auto;
+    }
+  }
+  &__map {
+    border-radius: 0;
+    width: 100%;
+    @media screen and (min-width: $bp-tablet) {
+      height: 480px;
+      border-radius: 32px;
+    }
+  }
+  &__title {
+    margin-bottom: 24px;
+
+    text-align: center;
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 48px;
+    }
+  }
+
+  &__form-field {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+}

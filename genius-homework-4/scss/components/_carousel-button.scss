@@ -1,0 +1,23 @@
+/*carousel-button*/
+.carousel-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s, fill 0.2s;
+  &:hover {
+    background-color: var(--color-primary-blue);
+    fill: var(--color-background);
+  }
+  &--right {
+    transform: rotate(180deg);
+  }
+}

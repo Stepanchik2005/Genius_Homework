@@ -1,0 +1,125 @@
+.header {
+  position: absolute;
+  width: 100%;
+  padding: 16px 0;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  @media screen and (min-width: $bp-tablet) {
+    padding: 32px 0;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(5px);
+  }
+
+  // &__container {
+  //   position: relative;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   gap: 10px;
+  //   padding: 16px 16px 25px 20px;
+  //   flex-grow: 1;
+
+  //   @media screen and (min-width: $bp-tablet) {
+  //     padding: 32px 24px;
+  //   }
+  // }
+  // &__back {
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   z-index: -20;
+  //   // //max-width: 100%;
+  //   // content: url(/genius-homework-4/images/background.png);
+  //   // @media screen and (max-width: $bp-tablet) {
+  //   //   content: url(/genius-homework-4/images/фон.png);
+  //   //   right: 0;
+  //   // }
+  // }
+  &__nav {
+    display: flex;
+    align-items: center;
+    //gap: 240px;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  &__main-logo {
+    width: 54px;
+    height: 30px;
+    @media screen and (min-width: $bp-tablet) {
+      width: 74px;
+      height: 43px;
+    }
+    &--mobile {
+      width: 54px;
+      height: 30px;
+      margin-bottom: 32px;
+    }
+  }
+  &__menu {
+    display: none;
+    justify-content: center;
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 24px;
+      max-width: 515px;
+      width: 100%;
+    }
+    @media screen and (min-width: $bp-desktop) {
+      gap: 56px;
+    }
+    &--mobile {
+      display: flex;
+      //padding-left: 20px;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__link {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    transition: color 0.2s;
+    &:hover {
+      color: var(--color-primary-blue);
+    }
+  }
+
+  &__icons {
+    display: none;
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 32px;
+    }
+    &--mobile {
+      display: flex;
+      //padding-left: 20px;
+      gap: 32px;
+    }
+  }
+  &__icon-link {
+    fill: var(--color-primary-dark);
+    transition: fill 0.2s;
+    &:hover {
+      fill: var(--color-primary-blue);
+    }
+  }
+  &__burger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    fill: var(--color-background);
+
+    @media screen and (min-width: $bp-tablet) {
+      display: none;
+    }
+  }
+}

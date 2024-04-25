@@ -1,0 +1,38 @@
+.our-procedures-section {
+  // &__container {
+  //   padding: 0 20px;
+  // }
+
+  // &__flex {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   gap: 48px;
+  // }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__slider {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__container_swiper {
+    overflow: hidden;
+  }
+  &__list {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    //justify-content: center;
+  }
+
+  &__scroll-button {
+    display: none;
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+    }
+  }
+}

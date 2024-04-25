@@ -1,0 +1,129 @@
+.footer {
+  background-color: var(--color-primary-dark);
+  &__container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    padding: 56px 0;
+    @media screen and (max-width: $bp-tablet) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__nav {
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // align-items: flex-start;
+    // margin: auto;
+    // max-width: 380px;
+    // width: 100%;
+    @media screen and (max-width: $bp-tablet) {
+      margin-bottom: 16px;
+    }
+    &::after {
+      position: absolute;
+      width: 250px;
+      height: 150px;
+      bottom: 0;
+      right: 0;
+      background-image: url(../images/footer-photo-right-bottom.png);
+      background-repeat: no-repeat;
+      content: "";
+      @media screen and (max-width: $bp-tablet) {
+        display: none;
+      }
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 16px;
+    font-size: 16px;
+    @media screen and (max-width: $bp-tablet) {
+      align-items: center;
+    }
+  }
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 192px;
+    width: 100%;
+    gap: 16px;
+    @media screen and (max-width: $bp-tablet) {
+      display: none;
+    }
+  }
+  &__logo {
+    margin-bottom: 42px;
+  }
+  &__link {
+    color: var(--color-background);
+    text-decoration: none;
+    transition: color 0.2s;
+    &:hover {
+      color: var(--color-primary-blue);
+    }
+  }
+
+  &__contacts-address {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  &__icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    @media screen and (max-width: $bp-tablet) {
+      display: none;
+    }
+    &--hidden {
+      display: none;
+      @media screen and (max-width: $bp-tablet) {
+        display: flex;
+      }
+    }
+  }
+  &__icon-link {
+    fill: var(--color-background);
+    transition: fill 0.2s;
+    &:hover {
+      fill: var(--color-primary-blue);
+    }
+  }
+
+  &__privacy-policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    @media screen and (max-width: $bp-tablet) {
+      align-items: center;
+    }
+  }
+  &__address-link {
+    color: var(--color-background);
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.2s;
+    &:hover {
+      color: var(--color-primary-blue);
+    }
+  }
+
+  &__address-copyright {
+    color: var(--color-secondary-gray);
+    font-size: 13px;
+  }
+}

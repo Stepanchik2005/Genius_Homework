@@ -607,26 +607,26 @@ address {
   max-width: 1440px;
 }
 .hero-section__banner {
-  background-image: url(/genius-homework-4/images/background-mobile.png);
+  background-image: url(../images/background-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60% top;
 }
 @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-section__banner {
-    background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(rgba(255, 255, 255, 0.78)), color-stop(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0))), url(/genius-homework-4/images/bgc-mobile-banner@2x.png);
-    background-image: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)), url(/genius-homework-4/images/bgc-mobile-banner@2x.png);
+    background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(rgba(255, 255, 255, 0.78)), color-stop(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0))), url(../images/bgc-mobile-banner@2x.png);
+    background-image: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)), url(../images/bgc-mobile-banner@2x.png);
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-section__banner {
     background-position: right top;
-    background-image: url(/genius-homework-4/images/background.png);
+    background-image: url(../images/background.png);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero-section__banner {
-    background-image: url(/genius-homework-4/images/background@2px.png);
+    background-image: url(../images/background@2px.png);
   }
 }
 .hero-section__container {
